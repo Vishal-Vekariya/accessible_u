@@ -18,6 +18,22 @@
 	<script src="scripts/before-form.js"></script>
 	<script src="scripts/before-modal.js"></script>
 	<script src="scripts/before-hero.js"></script>
+	<style>
+		.skip-link {
+			position: absolute;
+			top: -40px; /* Position off-screen */
+			left: 0;
+			background-color: #fff; /* Background color to make it visible */
+			color: #000; /* Text color */
+			padding: 8px;
+			z-index: 1000; /* Ensure it appears on top */
+			transition: top 0.3s;
+		}
+		.skip-link:focus {
+			top: 0; /* Bring it back into view when focused */
+		}
+	</style>
+	<!-- Other styles and scripts -->
 </head>
 <body>
 <a href="#main" class="skip-link">Skip to main content</a>
