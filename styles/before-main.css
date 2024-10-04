@@ -73,6 +73,7 @@ a {
  */
 a:hover {
   color:darkred;
+	font-weight: bold;
 }
 
 /*
@@ -80,6 +81,6 @@ a:hover {
  *
  */
 a:hover, a:focus, input:focus {
-  outline: none;
+  outline: 2px dashed lightblue;
   border-color: transparent;
 }
