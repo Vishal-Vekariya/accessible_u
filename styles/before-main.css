@@ -64,16 +64,15 @@ p {
  *
  */
 a {
-  color: #777777;
-	text-decoration: none;
+  color:darkblue;
+	text-decoration: underline;
 }
 /*
  * Provide additional visual cues to mouse users only
  *
  */
 a:hover {
-  color:#666666;
-  text-decoration: none;
+  color:darkred;
 }
 
 /*
